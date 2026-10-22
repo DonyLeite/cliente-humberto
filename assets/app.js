@@ -234,6 +234,9 @@
     $$("[data-instagram]").forEach(function (el) {
       el.textContent = CLINIC.instagram || "@estoubem";
     });
+    $$("[data-last-update]").forEach(function (el) {
+      el.textContent = CLINIC.lastUpdate || "";
+    });
     $$("[data-years]").forEach(function (el) {
       el.textContent = PROOF.years || "15";
     });

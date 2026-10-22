@@ -89,6 +89,7 @@ Tudo abaixo está marcado com `TROCAR` em `assets/config.js` (e em alguns trecho
 - [ ] **Lista de convênios** aceita (se quiser, no FAQ e no chat)
 - [ ] **Política de privacidade / LGPD** (link no rodapé) e consentimento de cookies, se houver analytics
 - [ ] **Fotos reais**: colocar os `.jpg` em `assets/img/` e ligar `clinic.useRealPhotos: true` (seção 5)
+- [ ] **Data de atualização**: `clinic.lastUpdate` (aparece no rodapé) + `dateModified` no JSON-LD + `lastmod` no `sitemap.xml`
 
 > Enquanto o WhatsApp não for trocado, os links apontam para `5511900000000` (número fictício).
 
