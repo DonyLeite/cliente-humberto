@@ -4,6 +4,10 @@
    • Fuso: tudo em America/Sao_Paulo (BRT / UTC-3 fixo desde 2019)
    • Agendamento: deep link do Google Calendar (eventedit)
    • Chat: assistente virtual local (sem backend) — fácil de trocar por IA
+   --------------------------------------------------------------------------
+   Desenvolvido por Agência DZ Marketing Digital
+   Desenvolvedor responsável: Doni Leite
+   © 2026 Agência DZ Marketing Digital — todos os direitos reservados
    ========================================================================== */
 (function () {
   "use strict";
@@ -236,6 +240,9 @@
     });
     $$("[data-last-update]").forEach(function (el) {
       el.textContent = CLINIC.lastUpdate || "";
+    });
+    $$("[data-copy-year]").forEach(function (el) {
+      el.textContent = String(new Date().getFullYear());
     });
     $$("[data-years]").forEach(function (el) {
       el.textContent = PROOF.years || "15";

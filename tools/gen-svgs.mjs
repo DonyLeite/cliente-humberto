@@ -2,6 +2,10 @@
  * Gerador das ilustrações (SVG) da landing page ESTOU BEM.
  * Uso: node tools/gen-svgs.mjs
  *
+ * Desenvolvido por Agência DZ Marketing Digital
+ * Desenvolvedor responsável: Doni Leite
+ * © 2026 Agência DZ Marketing Digital — todos os direitos reservados
+ *
  * As ilustrações são placeholders de marca. Para usar fotos reais do cliente,
  * basta gravar um arquivo com o MESMO nome e extensão .jpg (ex.:
  * assets/img/esp-dermatologia.jpg) — a página troca automaticamente

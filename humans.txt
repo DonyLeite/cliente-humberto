@@ -1,0 +1,20 @@
+/* EQUIPE */
+    Agência: Agência DZ Marketing Digital
+    Desenvolvedor responsável: Doni Leite
+    Site: https://dzmktdigital-1.base44.app
+    Contato: pelo site da agência
+
+/* PROJETO */
+    Cliente: Clínica ESTOU BEM — Dr. Humberto
+    Tipo: protótipo de landing page (site estático)
+    Padrões: HTML5, CSS (Tailwind CSS 3), JavaScript puro
+    Local: São Paulo, Brasil
+    Idioma: Português (pt-BR)
+    Fuso horário: America/Sao_Paulo (BRT / UTC-3)
+    Datas: todo o agendamento é calculado em horário de Brasília
+    Última atualização: 22/10/2026
+
+/* DIREITOS */
+    © 2026 Agência DZ Marketing Digital — desenvolvedor responsável Doni Leite.
+    Todos os direitos reservados. Reprodução, cópia ou distribuição sem
+    autorização expressa é proibida.

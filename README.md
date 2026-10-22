@@ -66,7 +66,9 @@ A página foi construída a partir de boas práticas de landing pages do segment
 ├─ tailwind.config.js         # tema (teal/coral/slate) + animações
 ├─ manifest.json
 ├─ robots.txt
-└─ sitemap.xml
+├─ sitemap.xml
+├─ humans.txt               # créditos da equipe/direitos
+└─ LICENSE                  # termos: todos os direitos reservados
 ```
 
 ---
@@ -198,6 +200,36 @@ Para trocar por IA (ChatGPT/Gemini/n8n/Make):
 
 ---
 
-## 10. Licença e créditos
+## 10. Autoria, licença e créditos
 
-Código e ilustrações: uso livre para o cliente. Layout, copy e estratégia: **DZ Marketing Digital**.
+**Protótipo desenvolvido por Agência DZ Marketing Digital**
+**Desenvolvedor responsável: Doni Leite**
+**© 2026 Agência DZ Marketing Digital — todos os direitos reservados.**
+
+Este projeto (código-fonte, layout, textos, identidade visual, ilustrações SVG, estrutura
+de página e estratégia de conversão) é propriedade da **Agência DZ Marketing Digital**, sob
+responsabilidade técnica de **Doni Leite**. Reprodução, cópia, modificação, distribuição ou
+uso comercial, total ou parcial, sem autorização prévia e por escrito é proibido — ver
+[`LICENSE`](LICENSE).
+
+O nome, a marca, os dados cadastrais, os contatos, os conteúdos médicos e as imagens da
+clínica pertencem ao cliente (**Clínica ESTOU BEM / Dr. Humberto**), que responde pela
+veracidade das informações, pelas normas do CFM e pela LGPD.
+
+### Onde o crédito aparece
+
+| Local | Como |
+| --- | --- |
+| Rodapé da página | "Protótipo desenvolvido por Agência DZ Marketing Digital — desenvolvedor responsável Doni Leite — todos os direitos reservados ©" |
+| `<head>` do HTML | `<meta>` `author`, `designer`, `developer`, `publisher`, `copyright`, `dcterms.rights` + link `rel="author"` |
+| Comentário no topo do HTML | bloco de autoria/copyright visível no código-fonte |
+| JSON-LD (`WebSite`) | `creator`, `author`, `copyrightHolder`, `copyrightYear`, `copyrightNotice` |
+| `humans.txt` | ficha de equipe, projeto, fuso e direitos (`/humans.txt`) |
+| `LICENSE` | termos de uso proprietário ("todos os direitos reservados") |
+| `README.md` | esta seção |
+| Código | cabeçalho de autoria em `assets/app.js`, `assets/config.js`, `src/input.css` (banner `/*!` preservado no CSS compilado) e `tools/gen-svgs.mjs` |
+| Repositório GitHub | descrição e tópicos do repo com o crédito da agência |
+| Histórico Git | autor dos commits: **DonyLeite** (`donyleite@users.noreply.github.com`) |
+
+> Recomendado também (fora do código, quando o cliente aprovar): manter o crédito discreto
+> no rodapé do site publicado, no contrato/proposta comercial e no e-mail de entrega do projeto.

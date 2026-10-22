@@ -4,6 +4,10 @@
    >>> 1. TROQUE todos os valores marcados com "TROCAR" <<<
    >>> 2. O fuso é sempre America/Sao_Paulo (BRT / UTC-3, sem horário de verão
           desde 2019). Qualquer horário exibido na página usa este fuso. <<<
+   --------------------------------------------------------------------------
+   Desenvolvido por Agência DZ Marketing Digital
+   Desenvolvedor responsável: Doni Leite
+   © 2026 Agência DZ Marketing Digital — todos os direitos reservados
    ========================================================================== */
 
 window.ESTOU_BEM = {
