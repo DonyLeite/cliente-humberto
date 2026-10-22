@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" width="720" height="900" fill="none" role="img" >
+<defs>
+  <linearGradient id="dbg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#d3f5e8"/>
+    <stop offset="100%" stop-color="#eefbf6"/>
+  </linearGradient>
+  <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#e6f4ef"/>
+  </linearGradient>
+  <filter id="dshadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0f5348" flood-opacity="0.18"/>
+  </filter>
+  <pattern id="ddots" width="32" height="32" patternUnits="userSpaceOnUse">
+  <circle cx="4" cy="4" r="1.6" fill="#106858" opacity="0.2"/>
+</pattern>
+</defs>
+<rect width="720" height="900" fill="url(#dbg)"/>
+<rect width="720" height="900" fill="url(#ddots)"/>
+<circle cx="360" cy="450" r="250" fill="#ffffff" opacity="0.5"/>
+<g filter="url(#dshadow)">
+  <path d="M180 900c0-150 78-236 180-236s180 86 180 236Z" fill="url(#coat)"/>
+</g>
+<path d="M330 604l30 52 30-52" fill="none" stroke="#74d6b9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M320 690h80" fill="none" stroke="#106858" stroke-width="10" stroke-linecap="round"/>
+<circle cx="360" cy="450" r="128" fill="#ffffff" opacity="0.92"/>
+<circle cx="360" cy="430" r="96" fill="#74d6b9" opacity="0.35"/>
+<path d="M282 430c8-58 42-88 78-88s70 30 78 88c2 16-10 26-24 22-18-5-36-9-54-9s-36 4-54 9c-14 4-26-6-24-22Z" fill="#106858" opacity="0.55"/>
+<path d="M300 520c-12-16-18-34-18-54 0-56 35-98 78-98s78 42 78 98c0 20-6 38-18 54" fill="none" stroke="#106858" stroke-width="12" stroke-linecap="round"/>
+<rect x="150" y="806" width="420" height="62" rx="31" fill="#ffffff" opacity="0.9"/>
+<text x="360" y="846" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#106858">Dr. Humberto</text>
+</svg>

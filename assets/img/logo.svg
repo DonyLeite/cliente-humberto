@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 128" width="512" height="128" fill="none" role="img" style="max-width:100%;height:auto">
+<rect width="512" height="128" fill="none"/>
+<g transform="translate(8, 8)">
+  <rect width="112" height="112" rx="34" fill="#106858"/>
+  <path d="M56 30v52M30 56h52" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+</g>
+<text x="140" y="60" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="800" fill="#333947" letter-spacing="1.5">ESTOU</text>
+<text x="140" y="104" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="800" fill="#106858" letter-spacing="1.5">BEM</text>
+</svg>

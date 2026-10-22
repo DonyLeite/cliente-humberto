@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://estoubem.com.br/sitemap.xml
