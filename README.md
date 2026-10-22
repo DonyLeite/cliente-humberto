@@ -88,6 +88,7 @@ Tudo abaixo está marcado com `TROCAR` em `assets/config.js` (e em alguns trecho
 - [ ] **Nome da cidade/bairro** citados no FAQ e na seção de contato
 - [ ] **Lista de convênios** aceita (se quiser, no FAQ e no chat)
 - [ ] **Política de privacidade / LGPD** (link no rodapé) e consentimento de cookies, se houver analytics
+- [ ] **Fotos reais**: colocar os `.jpg` em `assets/img/` e ligar `clinic.useRealPhotos: true` (seção 5)
 
 > Enquanto o WhatsApp não for trocado, os links apontam para `5511900000000` (número fictício).
 
@@ -103,8 +104,10 @@ As ilustrações em SVG são placeholders consistentes com a marca. Para usar fo
    - `esp-clinica-medica.jpg`, `esp-dermatologia.jpg`, `esp-cardiologia.jpg`, `esp-ortopedia.jpg`,
      `esp-neurologia.jpg`, `esp-pediatria.jpg`, `esp-endocrinologia.jpg`, `esp-nutricao.jpg`,
      `esp-ginecologia.jpg`, `esp-urologia.jpg`
-2. **Não precisa mexer no HTML**: o `app.js` troca `src` automaticamente para o `.jpg` quando o `.svg`
-   não é usado / quando a foto existe (atributo `data-photo`).
+2. Em `assets/config.js`, troque `clinic.useRealPhotos: false` para **`true`**.
+   A página passa a usar as fotos `.jpg` automaticamente — **sem mexer no HTML**.
+   (O atributo `data-photo` de cada `<img>` já aponta para o arquivo correspondente;
+   se um SVG falhar, o JS ainda cai para a foto como rede de segurança.)
 3. Recomendações: 4:3 para as especialidades (640×480), 3:4 para o hero (960×1080), JPEG < 200 KB,
    `object-cover` já corta mantendo o foco.
 4. **Direitos de imagem**: use banco licensed (Unsplash/Pexels) ou fotos próprias — evite material de

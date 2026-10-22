@@ -265,12 +265,18 @@
   /* ------------------------------------------- fallback SVG -> foto real */
   function photoFallback() {
     $$("img[data-photo]").forEach(function (img) {
+      var photo = img.getAttribute("data-photo");
+      if (!photo) return;
+      // flag em config.js: usa as fotos reais quando elas existirem
+      if (CLINIC.useRealPhotos) {
+        img.setAttribute("src", photo);
+      }
+      // rede de segurança: se o SVG falhar, tenta a foto
       img.addEventListener(
         "error",
         function () {
-          var fallback = img.getAttribute("data-photo");
-          if (fallback && img.getAttribute("src") !== fallback) {
-            img.setAttribute("src", fallback);
+          if (img.getAttribute("src") !== photo) {
+            img.setAttribute("src", photo);
           }
         },
         { once: false }

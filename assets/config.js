@@ -24,6 +24,9 @@ window.ESTOU_BEM = {
     email: "contato@estoubem.com.br", // TROCAR
     instagram: "", // TROCAR: @perfil
     mapsQuery: "Clínica ESTOU BEM São Paulo", // TROCAR: endereço para o mapa
+    /* Depois de colocar as fotos reais em assets/img/*.jpg (mesmo nome dos SVG),
+       mude para true: a página passa a usar as fotos automaticamente. */
+    useRealPhotos: false,
   },
 
   /* ---------------------------------------------------------- agendamento */
